@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const data = await getCountry();
-      console.log(data);
+
       setCountries(data);
     };
     fetchData();
